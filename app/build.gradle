@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 println("hello gradle")
 println "hello gradle"
 
+println username
 println "${username}"
 //正确的语法：${rootProject.ext.username}
 //rootProject.ext.username = 1234 //弱类型语言Groovy
